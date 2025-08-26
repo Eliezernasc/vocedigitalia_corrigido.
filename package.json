@@ -1,4 +1,5 @@
-﻿{
+﻿rm package.json
+echo {
   "name": "vocedigitalia",
   "version": "1.0.0",
   "private": true,
@@ -12,4 +13,4 @@
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
-}
+} | Out-File package.json -Encoding utf8
